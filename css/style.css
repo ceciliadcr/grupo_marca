@@ -1,0 +1,812 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root{
+    --color-general-fondo:            #48e          ;
+    --color-general-letra:            #fff          ;
+
+    --color-bn1:            #ffffff                 ;
+    --color-bn2:            #fefefe                 ;
+    --color-nn1:            #000000                 ;
+    --color-nn2:            #222222                 ; 
+    --color-gn1:            #808080                 ;
+    --color-gn2:            #f4f4f4                 ;
+}
+
+body{
+    background-color:   #fff             ;
+    margin:             0                ;
+    font-family: "Montserrat", sans-serif;
+}
+
+header{
+    background-color:   #fff             ;
+}
+footer{
+    background-color:   #2e4d66          ;
+    color:              #fff             ;
+    text-align:         center           ;
+    padding-top:        15px             ;
+	padding-bottom: 	20px             ;
+    font-weight:        bold             ;
+}
+/* *************************** imagenes  ****************************** */
+.logo--img{
+    width:              90px             ;
+    display:            inline-block     ;
+}
+#img-01{
+     width:             700px            ;
+}
+#img-02{
+      height:           600px             ;
+}
+#img-04{
+      width:           833px;
+}
+
+#img-08{
+    margin-top:        10px; 
+    margin-bottom:     100px;
+    height:            350px            ;
+    background-image:       url("../img08.jpg") ; 
+    background-size:        cover               ; 
+    background-position:    bottom;             ;
+}
+
+.img-fluid2{
+     width:             600px            ;
+    display:            inline-block     ;   
+}
+
+
+/* ***************************header ****************************** */
+.logo--img{
+    width:              90px             ;
+    display:            inline-block     ;
+}
+/* ================ Lista ================= */
+.breadcrumb li{
+    width:              130px            ;
+    list-style:         none             ;
+    background-color:   transparent      ; 
+    text-align:         center             ;   
+}
+.breadcrumb a{
+    padding:            01px             ;
+    color:              #2e4d66          ;
+    text-decoration:    none             ;
+}
+.breadcrumb a:hover{
+    padding:            01px             ;
+    color:              #ef1f41          ;
+    background-color:   transparent      ;
+    text-decoration:    none             ;
+}
+.breadcrumb a:active{
+    color:              #ef1f41          ;
+    background-color:   transparent      ;
+}
+#titulo-pagina{
+    padding:            0                ;
+    font-weight:        900              ;
+}
+.lista {
+    margin-top:         30px;
+}
+
+.conocenos{
+    display:            inline-block    ;   
+    padding:            10px 24px       ;      
+    background-color:   red             ;   
+    color:              #fff            ;
+    text-decoration:    none            ;
+    font-weight:        600             ;
+    font-size:          30px            ;        
+    border-radius:      3px             ;
+    line-height:        1               ;   
+}
+.conocenos:hover{
+    background-color:   forestgreen     ;
+    color:              white           ;
+    text-decoration:    underline       ;
+}
+#img-logo{
+    padding:            10px 0 !important; 
+    text-align:         center           ;
+    margin-bottom:      0 !important     ;
+    padding-top:        30px             ;
+}
+
+#sec-conocenos{
+	padding: 100px 0;
+	background-color: #f1e6dc;
+} 
+
+.btn-danger{
+	padding: 20px 30px;
+	font-size: 18px;
+	font-weight: 800;
+	border-radius: 15px
+	
+}
+
+#imagen-servicios { 	
+
+}
+
+
+.titulo-servicios {
+    background-color:   #345f81          ;
+    color:              #FFFFFF          ;
+    text-align:         center           ;
+	margin: 		    40px	0		 ;
+}
+h3 {
+    padding-top:        100px            ;
+    padding-bottom:     100px            ;
+	font-size: 20px;
+}
+	
+
+#servicios-1{
+    padding-top:        0px              ;   
+}
+
+#servicios-2 {
+    padding-top: 0px;
+}
+
+.servicio--1{
+	background-color: #ed2041;
+}
+
+.servicio--2{
+	background-color: #2090c0;
+}
+
+.servicio--3{
+	background-color: #9fc439;
+}
+
+.servicio--4{
+    color: #ed2041 !important;
+}
+
+.servicio--5{
+ color: #2090c0 !important;
+	
+}
+
+.servicio--6{
+ color: #9fc439 !important;
+}
+
+
+
+/* *************************** Inicio  ****************************** */
+
+/* ============================= nosotros -Kike y Emmy- ================================== */
+
+.parrafo_qs{
+	color: #FFFFFF;
+	background-color: #345F81;
+	padding: 30px;
+	margin-top: 35px;
+	
+}
+#nosotros{
+	background-color: #9EC334;
+}
+
+.titulo-nosotros{
+	margin-top: 225px;
+	padding-top: 15px;
+	color: #FFFFFF;
+	font-size:52px;
+}
+
+#mision-vision{
+	background-color: #EB2142;
+	color:#FFFFFF;
+	padding: 50px;
+	
+	
+}
+
+.titulo-mision{
+	font-weight: 900px;
+    font-size: 52px;
+	border-bottom: 4px solid #FFFFFF;
+	padding-bottom: 8px;
+}
+
+.titulo-vision{
+	font-weight: 900px;
+	text-align: right;
+	font-size: 52px;
+	border-bottom: 4px solid #FFFFFF;
+	padding-bottom: 8px;
+	padding-top: 100px;
+}
+
+.parrafo-vision{
+	text-align: right;
+	padding-top: 10px;
+	font-size: 18px;
+}
+
+.parrafo-mision { 
+ padding-top: 10px;
+ font-size: 18px;
+	
+
+}
+.img-nosotros{
+	background-image: url("../img/elaboracion-de-plan-de-negocios-grupo-de-jovenes-autonomos-en-la-oficina-conversando-y-sonriendo.png");
+	background-size: cover;
+	background-position:center;
+	padding: 17.5% 0;
+	
+}
+/* ============================= Servicios -Sofia- ================================== */
+
+.imag{ 
+padding-top: 40px; 
+padding-bottom: 40px;
+}
+#nuestros_servicios {
+    padding-top:        5px              ;  
+	background-color: aqua;
+}
+.titulo-servicios-right{
+    color:              #FFFFFF          ;
+    text-align:         right;
+	padding-top:        40px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 38px;
+}
+
+.titulo-servicios-left{
+    color:              #FFFFFF          ;
+    text-align:         left;
+	padding-top:        40px;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 38px;
+}
+h3 {
+    padding-top:        100px            ;
+    padding-bottom:     100px            ;
+}
+
+.servicio{
+    border:             solid            ;  
+    margin-top:         75px             ;
+    margin-bottom:      75px             ;
+    padding:            50px 100px       ;
+    text-align:         center           ;
+    color:              #FFFFFF          ;
+    font-weight:        600              ;
+}
+
+#servicios-comunicacion-estrategica
+{background-color: #ec2142;
+padding-top: 80px;
+padding-bottom: 80px;
+}
+
+.btn-dark{
+margin-top: 15px;
+}
+
+#Servicios h2{
+    color: #fff; 
+}
+
+#info-sce{
+    background-color: #fff;
+    border: 05px solid #F0D8A4;
+    padding: 40px;
+
+}
+
+#publicidad-marketing{
+background-color: #fff;
+padding-top: 80px;
+padding-bottom: 80px;
+}
+	
+#info-pm{
+background-color: #eb2142;
+    border: 05px solid #F0D8A4;
+    padding: 40px;
+	color: #fff;
+}
+
+#publicidad-marketing h2{
+	color: #eb2142;
+}
+
+
+#produ-audio{
+background-color: #2090bf;
+padding-top: 80px;
+padding-bottom: 80px;	
+}
+
+#info-pa{
+	background-color: #fff;
+    border: 05px solid #78C7F9;
+    padding: 40px;
+}
+
+#diseno-grafico h2{
+	color: #2090bf;
+}
+
+#info-dg{
+background-color: #2090bf;
+    border: 05px solid #78C7F9;
+    padding: 40px;
+	color: #fff;
+}
+
+#diseno-grafico{
+background-color: #fff;
+padding-top: 80px;
+padding-bottom: 80px;
+}
+
+#gestion-digi{
+background-color: #a0c539;
+padding-top: 80px;
+padding-bottom: 80px;	
+}
+
+#info-gd{
+	background-color: #fff;
+    border: 05px solid #cbeb9d;
+    padding: 40px;
+}
+
+
+#comunidad h2{
+	color: #a0c539;
+}
+
+#info-cc{
+background-color: #a0c539;
+    border: 05px solid #F0D8A4;
+    padding: 40px;
+	color: #fff;
+}
+
+#comunidad{
+background-color: #fff;
+padding-top: 80px;
+padding-bottom: 80px;
+}
+/* *************************** Servicios -Sofia- ****************************** */
+
+/* *************************** Portafolio -Enrique y Emmy- ****************************** */
+
+#cover-portafolio{
+	background-image: url("../img/camara-vs-fotografo-1-734x489.jpg");
+	background-size: cover;
+	background-position: top center;
+	padding: 17.5% 0;
+	
+}
+
+.titulo-portafolio{
+	text-align: 			center 											;
+	font-size: 				72px 											;
+	font-weight: 			900 											;
+	color: 					#FFFFFF 										;
+	letter-spacing: 		5px 											;
+	text-shadow: 			50 100 75 #000000 								;
+}
+.titulo-cliente1{
+	text-align: 			center 											;
+	font-size:  			44px 											;
+	font-weight: 			400 											;
+	color: 					#e84c37 										;
+	padding: 				25px 											;
+}
+.imagenes{
+	padding-top: 			5px												;
+	padding-bottom: 		20px											;
+}
+.titulo-cliente2{
+	font-size: 				44px 											;
+	font-weight: 			400 											;
+	color: 					#e84c37 										;
+	padding: 				25px 											;
+}
+
+.paleta-cliente2{
+	align-content: 			center 											;
+}
+.imagen-maquillaje{
+	background-image: 		url("../img/maquillaje.png") 					;
+	background-size: 		cover 											;
+	background-position: 	top center 										;
+	padding: 				17.5% 0 										;
+}
+.titulo-cliente3{
+	text-align: 			center 											;
+	font-size: 				44px											;
+	font-weight: 			400												;
+	color: 					#e84c37											;
+	padding: 				25px											;
+}
+.moda2{
+	background-image: 		url("../img/moda2.png") 						;
+	background-size: 		cover 											;
+	background-position: 	top center 										;
+	padding: 17.5% 0;
+}
+.moda3{
+	background-image: 		url("../img/moda3.png") 						;
+	background-size: 		cover 											;
+	background-position: 	top center 										;
+	padding: 17.5% 0;
+}
+
+.moda4{
+	background-image: 		url("../img/moda4.png")							;
+	background-size: 		cover 											;
+	background-position: 	top center 										;
+	padding: 				17.5% 0											;
+}
+
+/* *************************** Portafolio -Enrique y Emmy- ****************************** */
+
+ /* *************************** colaboraciones **********************************   */
+
+#colabs{
+	background-image: url("../img/designer-choosing-photos-for-content-2025-02-11-15-42-36-utc.jpg");
+	background-size: cover;
+	background-position: center;
+	background-color:rgba(0,0,0,0.50);
+	background-blend-mode: multiply;
+	padding: 15% 0;
+	background-attachment: fixed;
+}
+
+#colab-1{
+	
+	background-color: #e84c37;
+}
+
+#colab-2{ 
+
+	background-color: #a0c539;
+
+}
+
+#colab-3{ 
+
+	background-color: #C4C4C4;
+
+}
+
+
+#colab-4{ 
+
+	background-color:#77A4C8;
+
+}
+
+#colab-1, #colab-2{
+	position: relative;
+		
+}
+
+.colab-body-1{
+	
+	padding: 25%;
+	text-align: justify;	
+}
+
+.colab-body-1 h2{
+	
+	font-weight: 600;
+
+}
+
+
+.colab-body-2{
+	
+	padding: 25%;
+	text-align: justify;	
+}
+
+.colab-body-2 h2{
+	
+	font-weight: 600;
+
+}
+
+.img-ciudad{ 
+
+	background-image: url("../img/mature-woman-happy-and-confident-of-herself-walkin-2024-10-18-09-13-25-utc.jpg");
+	background-size: cover;
+	background-position: top center;
+	padding: 15%;
+}
+
+.img-evento{ 
+
+	background-image:url("../img/product-launch.png");
+	background-size: cover;
+	background-position:top center;
+	padding: 15% 0%;
+}
+
+.img-sombra{
+	
+	background-image:url("../img/beauty-woman-face-closeup-beautiful-model-girl-mak-2025-10-16-04-08-32-utc.jpg");
+	background-size: cover;
+	background-position:top center;
+	padding: 15% 0%;
+	
+}
+
+.img-voice{ 
+	
+	background-image:url("../img/male-musician-in-recording-studio-singing-into-mi-2024-10-20-00-04-23-utc.jpg");
+	background-size: cover;
+	background-position:top center;
+	padding: 15% 0%;
+
+}
+
+ /* *************************** fin colaboraciones **********************************   */
+
+ /* *************************** ads **********************************   */
+
+#ads{
+	background-image: url("../img/adssss.png");
+	background-size: cover;
+	background-position: center;
+	background-color:rgba(0,0,0,0.25);
+	background-blend-mode: multiply;
+	padding: 15% 0;
+	background-attachment: fixed;
+}
+
+.titulo{
+	color: #fff;
+	font-weight: 900;
+	text-align: center;
+	font-size: 72;
+}
+
+#apps-ads i{
+	color: #2090c0;
+}
+
+.sub-ads{
+	color: #2090c0;
+	font-weight: 800;
+}
+
+#apps-ads{
+	padding: 100px 0;
+}
+
+
+
+ /* *************************** fin ads **********************************   */
+
+ /* *************************** blog **********************************   */
+
+.blog-cover{
+	background-image: url("../img/office-lobby-conversation-with-colleagues-2024-11-16-08-50-59-utc.jpg");
+	background-size: cover;
+	background-position:top center;
+	background-color:rgba(0,0,0,0.50);
+	background-blend-mode: multiply;
+	padding: 15% 0;
+}
+.cover-text{
+	color: #FFFFFF;
+	text-align: justify;	
+}
+
+.cover-text h1{
+	font-weight: 600;
+	
+}
+
+.blog-1{
+	
+}
+
+.blog-body{
+	padding:5%;
+	color: #FFFFFF;
+	
+}
+
+.blog-body h5{
+	font-weight: 600;
+	
+}
+
+.bgb-1{
+	background-color:#ed2041; 	
+}
+
+.bgb-2{
+	background-color:#a0c539;
+}
+
+.bgb-3{
+	background-color:#2090bf;
+}
+ /* *************************** fin blog **********************************   */
+
+
+ /* *************************** crew **********************************   */
+#crew{
+	background-image: url("../img/crew_marca.png");
+	background-size: cover;
+	background-position: center;
+	background-color:rgba(0,0,0,0.25);
+	background-blend-mode: multiply;
+	padding: 15% 0;
+	background-attachment: fixed;
+}
+
+
+
+.parraf-white{
+	color: #fff;
+}
+
+
+
+#primer_equipo{
+	padding: 200px 0;
+	background-color: #ed2041;
+	color: #fff;
+}
+
+#segundo_equipo{
+	padding: 200px 0;
+	background-color: #fff;
+}
+
+.cursiva{
+	font-style: italic;
+	color: #2090bf;
+	font-weight: 900;
+}
+/* *************************** fin crew **********************************   */
+
+/* *************************** Contacto ****************************** */
+
+#cover-contacto{
+	background-image: 		url("../img/celmujer.PNG") ;
+	background-size: 		cover 											;
+	background-position: 	top center 										;
+	background-color:rgba(0,0,0,0.25);
+	background-blend-mode: multiply;
+	padding: 				17.5% 0											;
+}
+.titulo-contacto{
+	text-align: 			center 											;
+	font-size: 				72px 											;
+	font-weight: 			900 											;
+	color: 					#FFFFFF 										;
+	letter-spacing: 		5px 											;
+	text-shadow: 			50 100 75 #000000 								;
+}
+.cta-contacto{
+	text-align: 			center 											;
+	font-size: 				26px 											;
+	font-weight: 			400 											;
+	color: 					#FFFFFF;
+	text-shadow: 			50 100 75 #000000 								;
+}
+
+.contact{
+	background-color:#a0c539;
+	padding: 5%;
+		
+}
+
+.contact-text {
+	padding: 6%;
+	
+}
+
+.contact-text h2{
+	font-size: 42px;
+	font-weight: 600;
+
+	
+}
+/* *************************** fin Contacto ****************************** */
+
+ /* *************************** unete a nosotros **********************************   */
+
+.cover-clientes{
+	background-image: url("../img/beneficios-trabajo-en-equipo-1000x666.webp");
+	background-size: cover;
+	background-position: top center;
+	background-color:rgba(0,0,0,0.50);
+    background-blend-mode: multiply;
+	padding: 15% 0;
+	
+}
+
+.titulo-clientes{
+	text-align: 			center;
+	font-size: 				62px;
+	font-weight: 			900;
+	color: 					#fff;
+	letter-spacing: 		5px;
+}
+
+.unete{
+	background-color:#E8E8E8; 
+	color: #000000;
+	padding: 10% 5% 10% 5%;
+}
+
+
+.btn-unete{
+	padding: 5px;
+font-size: 18px;
+font-weight: 800;
+border-radius: 15px;
+	background-color: #2090bf;
+	color: #FFFFFF;
+	
+}
+.btn-unete:hover{
+	border-color: #e84c37;
+	border-radius: 15px;
+	color: #e84c37;
+}
+
+
+ /* ***************************  fin unete a nosotros **********************************   */
+
+/* *************************** footer  ****************************** */
+
+#lista-1{
+	list-style-type: none;
+	
+}
+
+#lista-2{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	
+}
+
+.redes-footer{ 
+
+padding-top: 10%;
+
+
+}
+
+
+
+
+
+
+
+
